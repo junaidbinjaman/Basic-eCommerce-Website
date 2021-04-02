@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import "./DashboardProduct.css";
 import Delete from "../../img/Group 33150.png";
 import edit from "../../img/Group 307.png";
-import { useHistory } from "react-router";
 
 const DashboardProduct = (props) => {
-  let history = useHistory();
   const deleteProduct = (id) => {
     fetch(`https://young-retreat-05427.herokuapp.com/delete/${id}`, {
       method: "DELETE",
@@ -14,7 +12,6 @@ const DashboardProduct = (props) => {
       .then((result) => {
         console.log("deveted suiccessfully");
       });
-    window.location.reload();
   };
   const { title, category, price, _id } = props.product;
   return (

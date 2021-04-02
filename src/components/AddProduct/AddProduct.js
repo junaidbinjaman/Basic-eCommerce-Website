@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import "./AddProduct.css";
 
 const AddProduct = () => {
-  const handleAddProduct = () => {
+  const handleAddProduct = (event) => {
+    event.preventDefault();
     const title = document.getElementById("ptoduct-title").value;
     const category = document.getElementById("category").value;
     const price = document.getElementById("price").value;
