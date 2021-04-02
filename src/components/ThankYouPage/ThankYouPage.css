@@ -1,0 +1,7 @@
+.thank-you-page-main-section {
+    font-family: 'PT Sans Narrow', sans-serif;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

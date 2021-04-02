@@ -1,0 +1,17 @@
+.manage {
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.manage h1 {
+    color: white;
+    font-size: 24px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.manage img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}

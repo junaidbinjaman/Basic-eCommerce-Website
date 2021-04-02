@@ -1,0 +1,10 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.home-page-preloader {
+    width: 400px;
+    height: 400px;
+    margin: 0 400px;
+}

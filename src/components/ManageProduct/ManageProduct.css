@@ -1,0 +1,12 @@
+.dashboard-product-header {
+    background: lightgray;
+    display: grid;
+    grid-template-columns: 300px 150px 150px 200px;
+}
+
+.dashboard-product-header h2 {
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    font-family: 'PT Sans Narrow', sans-serif;
+}

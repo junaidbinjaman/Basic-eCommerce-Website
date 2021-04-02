@@ -1,0 +1,14 @@
+.order-list-page {
+    height: 100vh;
+}
+
+.order-list-header {
+    display: grid;
+    grid-template-columns: 150px 600px 150px;
+    width: 900px;
+    background: lightgray;
+    margin: 20px auto;
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}

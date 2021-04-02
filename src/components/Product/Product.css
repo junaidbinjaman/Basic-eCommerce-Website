@@ -1,0 +1,33 @@
+.product {
+    box-shadow: 0px 0px 1px lightgray;
+    width: 330px;
+    margin: 30px auto;
+    border: 1px solid lightgray;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.innerProduct {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10px 2px;
+}
+
+.innerProduct button {
+    background: #3B3B98;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.pdPrice {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.product>p {
+    color: #3B3B98;
+    font-weight: bold;
+}

@@ -1,0 +1,9 @@
+.admin-section {
+    display: grid;
+    grid-template-columns: 400px 800px;
+}
+
+.admin-side-bar {
+    background: #222f3e;
+    height: 1200px;
+}

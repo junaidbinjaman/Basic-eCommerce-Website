@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-columns: 400px 800px;
+    background: black;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.header-right {
+    margin-top: 30px;
+}
+
+.header-left a {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.header-right a {
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}

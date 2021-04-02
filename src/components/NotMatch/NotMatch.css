@@ -1,0 +1,5 @@
+.not-match {
+    color: red;
+    text-shadow: 1px 1px 1px gray;
+    font-family: 'PT Sans Narrow', sans-serif;
+}

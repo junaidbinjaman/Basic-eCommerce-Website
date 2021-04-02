@@ -1,0 +1,15 @@
+.order-list {
+    display: grid;
+    grid-template-columns: 150px 600px 150px;
+    width: 900px;
+    background: rgba(211, 211, 211, 0.432);
+    margin: 20px auto;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.order-list h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
