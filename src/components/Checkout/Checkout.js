@@ -36,7 +36,7 @@ const Checkout = (event) => {
       orderInvoice,
     };
 
-    fetch("http://localhost:4000/placeOrder", {
+    fetch("https://young-retreat-05427.herokuapp.com/placeOrder", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -54,56 +54,56 @@ const Checkout = (event) => {
       <div className="cart-area">
         <div className="cart-child">
           <img width="100px" height="100px" src={image} alt="" />{" "}
-        </div>
+        </div>{" "}
         <div className="cart-child">
-          <h1>{title}</h1>
-        </div>
+          <h1> {title} </h1>{" "}
+        </div>{" "}
         <div className="cart-child">
-          <h1>${price}</h1>
-        </div>
-      </div>
-      {/*Checkout area starts from here */}
+          <h1> $ {price} </h1>{" "}
+        </div>{" "}
+      </div>{" "}
+      {/*Checkout area starts from here */}{" "}
       <div className="login-area">
         <form action="">
           <div className="name">
             <div className="firstName">
               <input id="firstName" type="text" placeholder="First Name" />
-            </div>
+            </div>{" "}
             <div className="lastName">
               <input id="lastName" type="text" placeholder="Last Name" />
-            </div>
-          </div>
+            </div>{" "}
+          </div>{" "}
           <div>
             <input type="email" id="email" placeholder="Email" />
-          </div>
+          </div>{" "}
           <div>
             <input type="text" id="address" placeholder="Address" />
-          </div>
+          </div>{" "}
           <div>
             <input type="text" id="address-2" placeholder="Address 2" />
-          </div>
+          </div>{" "}
           <div className="address-detail">
             <div className="zid-code">
               <input id="zid-code" type="text" placeholder="Zip Code" />
-            </div>
+            </div>{" "}
             <div className="area-code">
               <input id="area-code" type="text" placeholder="Area code" />
-            </div>
+            </div>{" "}
             <div className="house-number">
               <input id="house-number" type="text" placeholder="House Number" />
-            </div>
-          </div>
+            </div>{" "}
+          </div>{" "}
           <div>
             <input type="text" id="phone" placeholder="Phone Number" />
-          </div>
+          </div>{" "}
           <div>
             <textarea id="order-invoice" placeholder="Order invoice" />
           </div>{" "}
           <div className="button">
-            <button onClick={checkoutBtn}>Checkout Now</button>
-          </div>
-        </form>
-      </div>
+            <button onClick={checkoutBtn}> Checkout Now </button>{" "}
+          </div>{" "}
+        </form>{" "}
+      </div>{" "}
     </div>
   );
 };

@@ -8,7 +8,7 @@ const ThankYouPage = () => {
   const [orderInfo, setorderInfo] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:4000/product/${productId}`)
+    fetch(`https://young-retreat-05427.herokuapp.com/product/${productId}`)
       .then((res) => res.json())
       .then((data) => {
         setorderInfo(data[0]);

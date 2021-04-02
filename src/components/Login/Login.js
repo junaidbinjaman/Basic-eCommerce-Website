@@ -7,9 +7,7 @@ import "./Login.css";
 import { LoginContext } from "../../App";
 import { useHistory, useLocation } from "react-router";
 
-if (firebase.app.length < 1) {
-  firebase.initializeApp(firebaseConfig);
-}
+firebase.initializeApp(firebaseConfig);
 
 const Login = () => {
   let history = useHistory();

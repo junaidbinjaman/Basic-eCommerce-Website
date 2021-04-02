@@ -7,7 +7,7 @@ import { useHistory } from "react-router";
 const DashboardProduct = (props) => {
   let history = useHistory();
   const deleteProduct = (id) => {
-    fetch(`http://localhost:4000/delete/${id}`, {
+    fetch(`https://young-retreat-05427.herokuapp.com/delete/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())

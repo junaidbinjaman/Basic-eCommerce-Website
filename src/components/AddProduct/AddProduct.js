@@ -18,7 +18,7 @@ const AddProduct = () => {
     };
     console.log(product);
 
-    fetch("http://localhost:4000/addProduct", {
+    fetch("https://young-retreat-05427.herokuapp.com/addProduct", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
